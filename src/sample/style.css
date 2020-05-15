@@ -1,0 +1,60 @@
+#body {
+    -fx-background-color: #232323;
+}
+
+#barBox {
+    -fx-pref-width: 800px;
+    -fx-pref-height: 10%;
+    -fx-alignment: center;
+}
+
+#btnStart {
+    -fx-pref-width: 200;
+    -fx-pref-height: 75;
+    -fx-border-radius: 0;
+    -fx-border-color: #232333;
+    -fx-border-insets: 20;
+    -fx-background-insets: 20;
+}
+
+#chartPane {
+    -fx-alignment: center;
+}
+
+#lineChart{
+    -fx-pref-height: 700;
+    -fx-pref-width: 700;
+    -fx-background-color: #232323;
+}
+
+.chart-plot-background {
+    -fx-background-color: #232323;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #4e4e4e;
+    -fx-opacity: 20%;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #4e4e4e;
+    -fx-opacity: 20%;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #232323;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #5be960;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #5be960, #5be960;
+}
+
+.axis-tick-mark,
+.axis-minor-tick-mark,
+.chart-vertical-zero-line,
+.chart-horizontal-zero-line  {
+    -fx-stroke: transparent;
+}
