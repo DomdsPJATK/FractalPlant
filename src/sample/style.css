@@ -57,13 +57,14 @@
     -fx-stroke-width: 0;
 }
 
-.default-color0.chart-series-line {
-    -fx-stroke: #5be960;
+.chart-series-line {
+    -fx-stroke: rgba(42, 147, 27, 0.65);
+}
+.chart-line-symbol {
+    -fx-background-size: 2;
+    -fx-background-color: rgba(42, 147, 27, 0), rgba(42, 147, 27, 0.65);
 }
 
-.default-color0.chart-line-symbol {
-    -fx-background-color: #5be960, #5be960;
-}
 
 .axis-tick-mark,
 .axis-minor-tick-mark,
