@@ -9,6 +9,8 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 <BorderPane fx:controller="sample.Controller"
             xmlns:fx="http://javafx.com/fxml"
             stylesheets="@style.css"
@@ -18,6 +20,7 @@
     </center>
     <bottom>
         <FlowPane id="barBox">
+            <TextField fx:id="textInput" promptText="Ile iteracji?"/>
             <Button fx:id="btnStart" onAction="#btnAcction">Start</Button>
         </FlowPane>
     </bottom>
